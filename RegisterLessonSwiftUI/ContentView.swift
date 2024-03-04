@@ -47,6 +47,8 @@ struct ContentView: View {
             let newItem = Item(context: viewContext)
             newItem.timestamp = Date()
 
+          
+
             do {
                 try viewContext.save()
             } catch {

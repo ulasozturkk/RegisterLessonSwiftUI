@@ -13,6 +13,13 @@
 		528D5B9F2B95A0F50029DEAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528D5B9E2B95A0F50029DEAD /* Preview Assets.xcassets */; };
 		528D5BA12B95A0F50029DEAD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BA02B95A0F50029DEAD /* Persistence.swift */; };
 		528D5BA42B95A0F50029DEAD /* RegisterLessonSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BA22B95A0F50029DEAD /* RegisterLessonSwiftUI.xcdatamodeld */; };
+		528D5BAF2B95A5460029DEAD /* Lesson+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BAB2B95A5460029DEAD /* Lesson+CoreDataClass.swift */; };
+		528D5BB02B95A5460029DEAD /* Lesson+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BAC2B95A5460029DEAD /* Lesson+CoreDataProperties.swift */; };
+		528D5BB12B95A5460029DEAD /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BAD2B95A5460029DEAD /* User+CoreDataClass.swift */; };
+		528D5BB22B95A5460029DEAD /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BAE2B95A5460029DEAD /* User+CoreDataProperties.swift */; };
+		528D5BB52B95A7610029DEAD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BB42B95A7610029DEAD /* OnboardingView.swift */; };
+		528D5BB82B95AB140029DEAD /* AngledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BB72B95AB140029DEAD /* AngledButton.swift */; };
+		528D5BBA2B95AD580029DEAD /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BB92B95AD580029DEAD /* TitleText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +30,14 @@
 		528D5B9E2B95A0F50029DEAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		528D5BA02B95A0F50029DEAD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		528D5BA32B95A0F50029DEAD /* RegisterLessonSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RegisterLessonSwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		528D5BAA2B95A4930029DEAD /* RegisterLessonSwiftUI 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "RegisterLessonSwiftUI 2.xcdatamodel"; sourceTree = "<group>"; };
+		528D5BAB2B95A5460029DEAD /* Lesson+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson+CoreDataClass.swift"; sourceTree = "<group>"; };
+		528D5BAC2B95A5460029DEAD /* Lesson+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		528D5BAD2B95A5460029DEAD /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		528D5BAE2B95A5460029DEAD /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		528D5BB42B95A7610029DEAD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		528D5BB72B95AB140029DEAD /* AngledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngledButton.swift; sourceTree = "<group>"; };
+		528D5BB92B95AD580029DEAD /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +54,10 @@
 		528D5B8B2B95A0F40029DEAD = {
 			isa = PBXGroup;
 			children = (
+				528D5BAB2B95A5460029DEAD /* Lesson+CoreDataClass.swift */,
+				528D5BAC2B95A5460029DEAD /* Lesson+CoreDataProperties.swift */,
+				528D5BAD2B95A5460029DEAD /* User+CoreDataClass.swift */,
+				528D5BAE2B95A5460029DEAD /* User+CoreDataProperties.swift */,
 				528D5B962B95A0F40029DEAD /* RegisterLessonSwiftUI */,
 				528D5B952B95A0F40029DEAD /* Products */,
 			);
@@ -55,6 +74,8 @@
 		528D5B962B95A0F40029DEAD /* RegisterLessonSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				528D5BB62B95AB020029DEAD /* CustomViews */,
+				528D5BB32B95A7520029DEAD /* Features */,
 				528D5B972B95A0F40029DEAD /* RegisterLessonSwiftUIApp.swift */,
 				528D5B992B95A0F40029DEAD /* ContentView.swift */,
 				528D5B9B2B95A0F50029DEAD /* Assets.xcassets */,
@@ -71,6 +92,23 @@
 				528D5B9E2B95A0F50029DEAD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		528D5BB32B95A7520029DEAD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				528D5BB42B95A7610029DEAD /* OnboardingView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		528D5BB62B95AB020029DEAD /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				528D5BB72B95AB140029DEAD /* AngledButton.swift */,
+				528D5BB92B95AD580029DEAD /* TitleText.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +181,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528D5BB82B95AB140029DEAD /* AngledButton.swift in Sources */,
+				528D5BAF2B95A5460029DEAD /* Lesson+CoreDataClass.swift in Sources */,
 				528D5BA12B95A0F50029DEAD /* Persistence.swift in Sources */,
+				528D5BB22B95A5460029DEAD /* User+CoreDataProperties.swift in Sources */,
+				528D5BBA2B95AD580029DEAD /* TitleText.swift in Sources */,
+				528D5BB52B95A7610029DEAD /* OnboardingView.swift in Sources */,
 				528D5B9A2B95A0F40029DEAD /* ContentView.swift in Sources */,
 				528D5BA42B95A0F50029DEAD /* RegisterLessonSwiftUI.xcdatamodeld in Sources */,
 				528D5B982B95A0F40029DEAD /* RegisterLessonSwiftUIApp.swift in Sources */,
+				528D5BB02B95A5460029DEAD /* Lesson+CoreDataProperties.swift in Sources */,
+				528D5BB12B95A5460029DEAD /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,9 +402,10 @@
 		528D5BA22B95A0F50029DEAD /* RegisterLessonSwiftUI.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				528D5BAA2B95A4930029DEAD /* RegisterLessonSwiftUI 2.xcdatamodel */,
 				528D5BA32B95A0F50029DEAD /* RegisterLessonSwiftUI.xcdatamodel */,
 			);
-			currentVersion = 528D5BA32B95A0F50029DEAD /* RegisterLessonSwiftUI.xcdatamodel */;
+			currentVersion = 528D5BAA2B95A4930029DEAD /* RegisterLessonSwiftUI 2.xcdatamodel */;
 			path = RegisterLessonSwiftUI.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
