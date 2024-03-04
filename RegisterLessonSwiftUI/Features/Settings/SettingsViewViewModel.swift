@@ -4,6 +4,10 @@ class SettingsViewViewModel : ObservableObject {
   
   @Published var lessonName : String = ""
   @Published var errorMessage : String = ""
+
+  
+  
+  
   
   func addLesson() ->Bool{
     guard validateTextField() == true else {
