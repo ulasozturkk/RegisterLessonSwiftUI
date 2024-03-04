@@ -29,6 +29,14 @@
 		528D5BCC2B95CA600029DEAD /* SignUpViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BCB2B95CA600029DEAD /* SignUpViewViewModel.swift */; };
 		528D5BD02B95D00A0029DEAD /* CustomSecurefield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BCF2B95D00A0029DEAD /* CustomSecurefield.swift */; };
 		528D5BD32B95D2D10029DEAD /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BD22B95D2D10029DEAD /* SessionManager.swift */; };
+		528D5BD52B95DCD50029DEAD /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BD42B95DCD50029DEAD /* TabBarView.swift */; };
+		528D5BDB2B95DD060029DEAD /* LessonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BDA2B95DD060029DEAD /* LessonListView.swift */; };
+		528D5BDD2B95DD150029DEAD /* GradeEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BDC2B95DD150029DEAD /* GradeEntryView.swift */; };
+		528D5BDF2B95DD230029DEAD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BDE2B95DD230029DEAD /* SettingsView.swift */; };
+		528D5BE12B95DD2D0029DEAD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BE02B95DD2D0029DEAD /* ProfileView.swift */; };
+		528D5BE32B95DE460029DEAD /* LessonListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BE22B95DE460029DEAD /* LessonListViewViewModel.swift */; };
+		528D5BE52B95E2830029DEAD /* SettingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BE42B95E2830029DEAD /* SettingsViewViewModel.swift */; };
+		528D5BE72B95ECDE0029DEAD /* GradeEntryViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BE62B95ECDE0029DEAD /* GradeEntryViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +64,14 @@
 		528D5BCB2B95CA600029DEAD /* SignUpViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewViewModel.swift; sourceTree = "<group>"; };
 		528D5BCF2B95D00A0029DEAD /* CustomSecurefield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecurefield.swift; sourceTree = "<group>"; };
 		528D5BD22B95D2D10029DEAD /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		528D5BD42B95DCD50029DEAD /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		528D5BDA2B95DD060029DEAD /* LessonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonListView.swift; sourceTree = "<group>"; };
+		528D5BDC2B95DD150029DEAD /* GradeEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeEntryView.swift; sourceTree = "<group>"; };
+		528D5BDE2B95DD230029DEAD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		528D5BE02B95DD2D0029DEAD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		528D5BE22B95DE460029DEAD /* LessonListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonListViewViewModel.swift; sourceTree = "<group>"; };
+		528D5BE42B95E2830029DEAD /* SettingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewViewModel.swift; sourceTree = "<group>"; };
+		528D5BE62B95ECDE0029DEAD /* GradeEntryViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeEntryViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +132,13 @@
 		528D5BB32B95A7520029DEAD /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				528D5BD92B95DCF30029DEAD /* Profile */,
+				528D5BD82B95DCEE0029DEAD /* Settings */,
+				528D5BD72B95DCE40029DEAD /* GradeEntry */,
+				528D5BD62B95DCD90029DEAD /* LessonList */,
 				528D5BC72B95C90F0029DEAD /* Auth */,
 				528D5BBB2B95AF320029DEAD /* Onboarding */,
+				528D5BD42B95DCD50029DEAD /* TabBarView.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -176,6 +197,41 @@
 				528D5BD22B95D2D10029DEAD /* SessionManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		528D5BD62B95DCD90029DEAD /* LessonList */ = {
+			isa = PBXGroup;
+			children = (
+				528D5BDA2B95DD060029DEAD /* LessonListView.swift */,
+				528D5BE22B95DE460029DEAD /* LessonListViewViewModel.swift */,
+			);
+			path = LessonList;
+			sourceTree = "<group>";
+		};
+		528D5BD72B95DCE40029DEAD /* GradeEntry */ = {
+			isa = PBXGroup;
+			children = (
+				528D5BDC2B95DD150029DEAD /* GradeEntryView.swift */,
+				528D5BE62B95ECDE0029DEAD /* GradeEntryViewViewModel.swift */,
+			);
+			path = GradeEntry;
+			sourceTree = "<group>";
+		};
+		528D5BD82B95DCEE0029DEAD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				528D5BDE2B95DD230029DEAD /* SettingsView.swift */,
+				528D5BE42B95E2830029DEAD /* SettingsViewViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		528D5BD92B95DCF30029DEAD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				528D5BE02B95DD2D0029DEAD /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,16 +311,24 @@
 				528D5BB22B95A5460029DEAD /* User+CoreDataProperties.swift in Sources */,
 				528D5BCC2B95CA600029DEAD /* SignUpViewViewModel.swift in Sources */,
 				528D5BBA2B95AD580029DEAD /* CustomText.swift in Sources */,
+				528D5BE12B95DD2D0029DEAD /* ProfileView.swift in Sources */,
 				528D5BB52B95A7610029DEAD /* OnboardingView.swift in Sources */,
 				528D5BD02B95D00A0029DEAD /* CustomSecurefield.swift in Sources */,
+				528D5BDF2B95DD230029DEAD /* SettingsView.swift in Sources */,
 				528D5BBE2B95AF420029DEAD /* SignInView.swift in Sources */,
 				528D5BC22B95BBC40029DEAD /* SignInViewViewModel.swift in Sources */,
 				528D5B9A2B95A0F40029DEAD /* ContentView.swift in Sources */,
+				528D5BE52B95E2830029DEAD /* SettingsViewViewModel.swift in Sources */,
 				528D5BA42B95A0F50029DEAD /* RegisterLessonSwiftUI.xcdatamodeld in Sources */,
 				528D5B982B95A0F40029DEAD /* RegisterLessonSwiftUIApp.swift in Sources */,
+				528D5BDD2B95DD150029DEAD /* GradeEntryView.swift in Sources */,
 				528D5BCA2B95C9200029DEAD /* SignUpView.swift in Sources */,
 				528D5BB02B95A5460029DEAD /* Lesson+CoreDataProperties.swift in Sources */,
+				528D5BE32B95DE460029DEAD /* LessonListViewViewModel.swift in Sources */,
+				528D5BDB2B95DD060029DEAD /* LessonListView.swift in Sources */,
+				528D5BD52B95DCD50029DEAD /* TabBarView.swift in Sources */,
 				528D5BC02B95B9760029DEAD /* BackButton.swift in Sources */,
+				528D5BE72B95ECDE0029DEAD /* GradeEntryViewViewModel.swift in Sources */,
 				528D5BB12B95A5460029DEAD /* User+CoreDataClass.swift in Sources */,
 				528D5BD32B95D2D10029DEAD /* SessionManager.swift in Sources */,
 				528D5BC42B95BE8D0029DEAD /* CircularButton.swift in Sources */,

@@ -30,7 +30,7 @@ struct SignInView: View {
           }
         }.padding(.top,200)
           .navigationDestination(isPresented: $changePage, destination: {
-            ContentView()
+            TabBarView()
           })
           
           .toolbar{
