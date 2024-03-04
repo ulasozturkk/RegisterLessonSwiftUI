@@ -28,6 +28,7 @@
 		528D5BCA2B95C9200029DEAD /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BC92B95C9200029DEAD /* SignUpView.swift */; };
 		528D5BCC2B95CA600029DEAD /* SignUpViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BCB2B95CA600029DEAD /* SignUpViewViewModel.swift */; };
 		528D5BD02B95D00A0029DEAD /* CustomSecurefield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BCF2B95D00A0029DEAD /* CustomSecurefield.swift */; };
+		528D5BD32B95D2D10029DEAD /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BD22B95D2D10029DEAD /* SessionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		528D5BC92B95C9200029DEAD /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		528D5BCB2B95CA600029DEAD /* SignUpViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewViewModel.swift; sourceTree = "<group>"; };
 		528D5BCF2B95D00A0029DEAD /* CustomSecurefield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecurefield.swift; sourceTree = "<group>"; };
+		528D5BD22B95D2D10029DEAD /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		528D5B962B95A0F40029DEAD /* RegisterLessonSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				528D5BD12B95D2C50029DEAD /* Managers */,
 				528D5BB62B95AB020029DEAD /* CustomViews */,
 				528D5BB32B95A7520029DEAD /* Features */,
 				528D5B972B95A0F40029DEAD /* RegisterLessonSwiftUIApp.swift */,
@@ -165,6 +168,14 @@
 				528D5BCB2B95CA600029DEAD /* SignUpViewViewModel.swift */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		528D5BD12B95D2C50029DEAD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				528D5BD22B95D2D10029DEAD /* SessionManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +266,7 @@
 				528D5BB02B95A5460029DEAD /* Lesson+CoreDataProperties.swift in Sources */,
 				528D5BC02B95B9760029DEAD /* BackButton.swift in Sources */,
 				528D5BB12B95A5460029DEAD /* User+CoreDataClass.swift in Sources */,
+				528D5BD32B95D2D10029DEAD /* SessionManager.swift in Sources */,
 				528D5BC42B95BE8D0029DEAD /* CircularButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
