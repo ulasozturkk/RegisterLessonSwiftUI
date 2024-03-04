@@ -23,12 +23,13 @@ struct SignInView: View {
           CustomSecurefield(text: $VM.password, placeholder: "Password")
         }
 
-        CircularButton(text: "Sign In") {
+        CircularButton(text: "Sign In", action: {
           let signInResult = VM.signIn()
           if signInResult == true {
             self.changePage = true
           }
-        }.padding(.top,200)
+        }, backGroundColor: .orange)
+        .padding(.top,200)
           .navigationDestination(isPresented: $changePage, destination: {
             TabBarView()
           })

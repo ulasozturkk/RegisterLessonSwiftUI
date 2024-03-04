@@ -1,0 +1,6 @@
+framework module Pods_RegisterLessonSwiftUI {
+  umbrella header "Pods-RegisterLessonSwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

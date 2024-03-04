@@ -18,12 +18,13 @@ struct SettingsView: View {
             CustomTextField(text: $VM.lessonName , placeholder: "Enter Lesson Name")
           }
           Spacer()
-          CircularButton(text: "Enter Lesson") {
+          CircularButton(text: "Enter Lesson", action: {
             let lessonResult = VM.addLesson()
             if lessonResult == true {
               showingAlert = true
             }
-          }.alert("Success", isPresented: $showingAlert) {
+          }, backGroundColor: .orange)
+          .alert("Success", isPresented: $showingAlert) {
             Button("OK",role: .cancel){}
           } message: {
             Text("Lesson entered Successfully")

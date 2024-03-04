@@ -37,9 +37,20 @@
 		528D5BE32B95DE460029DEAD /* LessonListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BE22B95DE460029DEAD /* LessonListViewViewModel.swift */; };
 		528D5BE52B95E2830029DEAD /* SettingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BE42B95E2830029DEAD /* SettingsViewViewModel.swift */; };
 		528D5BE72B95ECDE0029DEAD /* GradeEntryViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BE62B95ECDE0029DEAD /* GradeEntryViewViewModel.swift */; };
+		528D5BE92B96005B0029DEAD /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BE82B96005B0029DEAD /* ProfileViewViewModel.swift */; };
+		528D5BEC2B96006C0029DEAD /* SelectAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BEB2B96006C0029DEAD /* SelectAvatarView.swift */; };
+		528D5BF12B96008D0029DEAD /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BF02B96008D0029DEAD /* ChangePasswordView.swift */; };
+		528D5BF32B9600990029DEAD /* ChangePasswordViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BF22B9600990029DEAD /* ChangePasswordViewViewModel.swift */; };
+		528D5BF52B9602180029DEAD /* ImagedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BF42B9602180029DEAD /* ImagedButton.swift */; };
+		528D5BF72B9606310029DEAD /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BF62B9606310029DEAD /* CacheManager.swift */; };
+		528D5BF92B96063A0029DEAD /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BF82B9606390029DEAD /* DownloadManager.swift */; };
+		528D5BFC2B9609A70029DEAD /* AvatarConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BFB2B9609A70029DEAD /* AvatarConstants.swift */; };
+		528D5BFE2B9610430029DEAD /* ImageSetterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BFD2B9610430029DEAD /* ImageSetterManager.swift */; };
+		FF17A96946F862CDAEF236B3 /* Pods_RegisterLessonSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64AC6C83C3050DFC6B246E8 /* Pods_RegisterLessonSwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DB24C21EE52F7DF2A1841C4 /* Pods-RegisterLessonSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegisterLessonSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-RegisterLessonSwiftUI/Pods-RegisterLessonSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		528D5B942B95A0F40029DEAD /* RegisterLessonSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegisterLessonSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528D5B972B95A0F40029DEAD /* RegisterLessonSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterLessonSwiftUIApp.swift; sourceTree = "<group>"; };
 		528D5B992B95A0F40029DEAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +83,17 @@
 		528D5BE22B95DE460029DEAD /* LessonListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonListViewViewModel.swift; sourceTree = "<group>"; };
 		528D5BE42B95E2830029DEAD /* SettingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewViewModel.swift; sourceTree = "<group>"; };
 		528D5BE62B95ECDE0029DEAD /* GradeEntryViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeEntryViewViewModel.swift; sourceTree = "<group>"; };
+		528D5BE82B96005B0029DEAD /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
+		528D5BEB2B96006C0029DEAD /* SelectAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAvatarView.swift; sourceTree = "<group>"; };
+		528D5BF02B96008D0029DEAD /* ChangePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
+		528D5BF22B9600990029DEAD /* ChangePasswordViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewViewModel.swift; sourceTree = "<group>"; };
+		528D5BF42B9602180029DEAD /* ImagedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagedButton.swift; sourceTree = "<group>"; };
+		528D5BF62B9606310029DEAD /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		528D5BF82B9606390029DEAD /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		528D5BFB2B9609A70029DEAD /* AvatarConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarConstants.swift; sourceTree = "<group>"; };
+		528D5BFD2B9610430029DEAD /* ImageSetterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSetterManager.swift; sourceTree = "<group>"; };
+		D7067366A551DA5E27EADAE4 /* Pods-RegisterLessonSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegisterLessonSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-RegisterLessonSwiftUI/Pods-RegisterLessonSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		E64AC6C83C3050DFC6B246E8 /* Pods_RegisterLessonSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegisterLessonSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF17A96946F862CDAEF236B3 /* Pods_RegisterLessonSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +117,8 @@
 				528D5BAE2B95A5460029DEAD /* User+CoreDataProperties.swift */,
 				528D5B962B95A0F40029DEAD /* RegisterLessonSwiftUI */,
 				528D5B952B95A0F40029DEAD /* Products */,
+				685091DF92A458F0F742BCE9 /* Pods */,
+				5707C8C593A3EA4AA42C2297 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +133,7 @@
 		528D5B962B95A0F40029DEAD /* RegisterLessonSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				528D5BFA2B9609980029DEAD /* Constants */,
 				528D5BD12B95D2C50029DEAD /* Managers */,
 				528D5BB62B95AB020029DEAD /* CustomViews */,
 				528D5BB32B95A7520029DEAD /* Features */,
@@ -152,6 +178,7 @@
 				528D5BC32B95BE8D0029DEAD /* CircularButton.swift */,
 				528D5BC52B95C67F0029DEAD /* CustomTextField.swift */,
 				528D5BCF2B95D00A0029DEAD /* CustomSecurefield.swift */,
+				528D5BF42B9602180029DEAD /* ImagedButton.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -195,6 +222,9 @@
 			isa = PBXGroup;
 			children = (
 				528D5BD22B95D2D10029DEAD /* SessionManager.swift */,
+				528D5BF62B9606310029DEAD /* CacheManager.swift */,
+				528D5BF82B9606390029DEAD /* DownloadManager.swift */,
+				528D5BFD2B9610430029DEAD /* ImageSetterManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -229,9 +259,62 @@
 		528D5BD92B95DCF30029DEAD /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				528D5BEF2B96007D0029DEAD /* ChangePassword */,
+				528D5BEA2B96005F0029DEAD /* SelectAvatar */,
 				528D5BE02B95DD2D0029DEAD /* ProfileView.swift */,
+				528D5BE82B96005B0029DEAD /* ProfileViewViewModel.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		528D5BEA2B96005F0029DEAD /* SelectAvatar */ = {
+			isa = PBXGroup;
+			children = (
+				528D5BEB2B96006C0029DEAD /* SelectAvatarView.swift */,
+			);
+			path = SelectAvatar;
+			sourceTree = "<group>";
+		};
+		528D5BEF2B96007D0029DEAD /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				528D5BF02B96008D0029DEAD /* ChangePasswordView.swift */,
+				528D5BF22B9600990029DEAD /* ChangePasswordViewViewModel.swift */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		528D5BFA2B9609980029DEAD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				528D5BFF2B9612BE0029DEAD /* Extensions */,
+				528D5BFB2B9609A70029DEAD /* AvatarConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		528D5BFF2B9612BE0029DEAD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5707C8C593A3EA4AA42C2297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E64AC6C83C3050DFC6B246E8 /* Pods_RegisterLessonSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		685091DF92A458F0F742BCE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DB24C21EE52F7DF2A1841C4 /* Pods-RegisterLessonSwiftUI.debug.xcconfig */,
+				D7067366A551DA5E27EADAE4 /* Pods-RegisterLessonSwiftUI.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 528D5BA72B95A0F50029DEAD /* Build configuration list for PBXNativeTarget "RegisterLessonSwiftUI" */;
 			buildPhases = (
+				25F5A0DA9C760D8CF8C07633 /* [CP] Check Pods Manifest.lock */,
 				528D5B902B95A0F40029DEAD /* Sources */,
 				528D5B912B95A0F40029DEAD /* Frameworks */,
 				528D5B922B95A0F40029DEAD /* Resources */,
+				D57B3E7AF9E321A09D7607C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,18 +384,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25F5A0DA9C760D8CF8C07633 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RegisterLessonSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57B3E7AF9E321A09D7607C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RegisterLessonSwiftUI/Pods-RegisterLessonSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RegisterLessonSwiftUI/Pods-RegisterLessonSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RegisterLessonSwiftUI/Pods-RegisterLessonSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		528D5B902B95A0F40029DEAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528D5BE92B96005B0029DEAD /* ProfileViewViewModel.swift in Sources */,
 				528D5BB82B95AB140029DEAD /* AngledNavigationText.swift in Sources */,
+				528D5BFE2B9610430029DEAD /* ImageSetterManager.swift in Sources */,
 				528D5BAF2B95A5460029DEAD /* Lesson+CoreDataClass.swift in Sources */,
 				528D5BA12B95A0F50029DEAD /* Persistence.swift in Sources */,
 				528D5BC62B95C67F0029DEAD /* CustomTextField.swift in Sources */,
 				528D5BB22B95A5460029DEAD /* User+CoreDataProperties.swift in Sources */,
+				528D5BF72B9606310029DEAD /* CacheManager.swift in Sources */,
+				528D5BF92B96063A0029DEAD /* DownloadManager.swift in Sources */,
 				528D5BCC2B95CA600029DEAD /* SignUpViewViewModel.swift in Sources */,
+				528D5BF12B96008D0029DEAD /* ChangePasswordView.swift in Sources */,
+				528D5BEC2B96006C0029DEAD /* SelectAvatarView.swift in Sources */,
 				528D5BBA2B95AD580029DEAD /* CustomText.swift in Sources */,
+				528D5BF52B9602180029DEAD /* ImagedButton.swift in Sources */,
 				528D5BE12B95DD2D0029DEAD /* ProfileView.swift in Sources */,
 				528D5BB52B95A7610029DEAD /* OnboardingView.swift in Sources */,
 				528D5BD02B95D00A0029DEAD /* CustomSecurefield.swift in Sources */,
@@ -319,10 +453,12 @@
 				528D5BC22B95BBC40029DEAD /* SignInViewViewModel.swift in Sources */,
 				528D5B9A2B95A0F40029DEAD /* ContentView.swift in Sources */,
 				528D5BE52B95E2830029DEAD /* SettingsViewViewModel.swift in Sources */,
+				528D5BFC2B9609A70029DEAD /* AvatarConstants.swift in Sources */,
 				528D5BA42B95A0F50029DEAD /* RegisterLessonSwiftUI.xcdatamodeld in Sources */,
 				528D5B982B95A0F40029DEAD /* RegisterLessonSwiftUIApp.swift in Sources */,
 				528D5BDD2B95DD150029DEAD /* GradeEntryView.swift in Sources */,
 				528D5BCA2B95C9200029DEAD /* SignUpView.swift in Sources */,
+				528D5BF32B9600990029DEAD /* ChangePasswordViewViewModel.swift in Sources */,
 				528D5BB02B95A5460029DEAD /* Lesson+CoreDataProperties.swift in Sources */,
 				528D5BE32B95DE460029DEAD /* LessonListViewViewModel.swift in Sources */,
 				528D5BDB2B95DD060029DEAD /* LessonListView.swift in Sources */,
@@ -459,6 +595,7 @@
 		};
 		528D5BA82B95A0F50029DEAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB24C21EE52F7DF2A1841C4 /* Pods-RegisterLessonSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +604,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RegisterLessonSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 2758CUH3C2;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -488,6 +626,7 @@
 		};
 		528D5BA92B95A0F50029DEAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7067366A551DA5E27EADAE4 /* Pods-RegisterLessonSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -496,6 +635,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"RegisterLessonSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 2758CUH3C2;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

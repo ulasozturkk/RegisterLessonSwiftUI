@@ -7,12 +7,13 @@ struct CircularButton: View {
   let sw = UIScreen.main.bounds.width
   let text : String
   var action : ()-> Void
+  let backGroundColor: Color?
     var body: some View {
       Button(action: action, label: {
         ZStack{
           RoundedRectangle(cornerRadius: sw / 2)
             .frame(width: sw * 0.8,height: sh * 0.1)
-            .foregroundStyle(.orange)
+            .foregroundStyle(backGroundColor ?? .orange)
           
           Text(text)
             .foregroundStyle(.white)
@@ -21,10 +22,6 @@ struct CircularButton: View {
         }
       })
     }
+  
 }
 
-#Preview {
-  CircularButton(text:"asd") {
-    
-  }
-}

@@ -24,13 +24,13 @@ struct SignUpView: View {
           CustomText(text: "Confirm Password", color: Color.black, font: .subheadline, fontWeight: .medium)
           CustomSecurefield(text: $VM.confirmPassword, placeholder: "Confirm Password")
         }
-        CircularButton(text: "Sign Up") {
+        CircularButton(text: "Sign Up", action: {
           let success = VM.signUp()
           if success == true {
             showingAlert = true
           }
-
-        }.padding(.top, 100)
+        }, backGroundColor: .orange)
+        .padding(.top, 100)
           .alert("Success", isPresented: $showingAlert) {
             Button("OK", role: .cancel) { dismiss() }
           } message: {
