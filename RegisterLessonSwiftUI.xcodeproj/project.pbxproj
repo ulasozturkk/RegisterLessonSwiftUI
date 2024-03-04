@@ -26,6 +26,8 @@
 		528D5BC42B95BE8D0029DEAD /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BC32B95BE8D0029DEAD /* CircularButton.swift */; };
 		528D5BC62B95C67F0029DEAD /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BC52B95C67F0029DEAD /* CustomTextField.swift */; };
 		528D5BCA2B95C9200029DEAD /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BC92B95C9200029DEAD /* SignUpView.swift */; };
+		528D5BCC2B95CA600029DEAD /* SignUpViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BCB2B95CA600029DEAD /* SignUpViewViewModel.swift */; };
+		528D5BD02B95D00A0029DEAD /* CustomSecurefield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5BCF2B95D00A0029DEAD /* CustomSecurefield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		528D5BC32B95BE8D0029DEAD /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 		528D5BC52B95C67F0029DEAD /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		528D5BC92B95C9200029DEAD /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		528D5BCB2B95CA600029DEAD /* SignUpViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewViewModel.swift; sourceTree = "<group>"; };
+		528D5BCF2B95D00A0029DEAD /* CustomSecurefield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecurefield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 				528D5BBF2B95B9760029DEAD /* BackButton.swift */,
 				528D5BC32B95BE8D0029DEAD /* CircularButton.swift */,
 				528D5BC52B95C67F0029DEAD /* CustomTextField.swift */,
+				528D5BCF2B95D00A0029DEAD /* CustomSecurefield.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				528D5BC92B95C9200029DEAD /* SignUpView.swift */,
+				528D5BCB2B95CA600029DEAD /* SignUpViewViewModel.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -236,8 +242,10 @@
 				528D5BA12B95A0F50029DEAD /* Persistence.swift in Sources */,
 				528D5BC62B95C67F0029DEAD /* CustomTextField.swift in Sources */,
 				528D5BB22B95A5460029DEAD /* User+CoreDataProperties.swift in Sources */,
+				528D5BCC2B95CA600029DEAD /* SignUpViewViewModel.swift in Sources */,
 				528D5BBA2B95AD580029DEAD /* CustomText.swift in Sources */,
 				528D5BB52B95A7610029DEAD /* OnboardingView.swift in Sources */,
+				528D5BD02B95D00A0029DEAD /* CustomSecurefield.swift in Sources */,
 				528D5BBE2B95AF420029DEAD /* SignInView.swift in Sources */,
 				528D5BC22B95BBC40029DEAD /* SignInViewViewModel.swift in Sources */,
 				528D5B9A2B95A0F40029DEAD /* ContentView.swift in Sources */,

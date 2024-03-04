@@ -25,7 +25,7 @@ struct OnboardingView: View {
           NavigationLink(destination:SignInView()) {
             AngledNavigationText(buttonText: "Sign In")
           }
-          NavigationLink(destination:SignInView()) {
+          NavigationLink(destination:SignUpView()) {
             AngledNavigationText(buttonText: "Sign Up")
           }
         }

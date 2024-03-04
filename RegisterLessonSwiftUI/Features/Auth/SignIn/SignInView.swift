@@ -15,14 +15,10 @@ struct SignInView: View {
         VStack(alignment: .leading) {
           CustomText(text: "Username", color: Color.black, font: .subheadline, fontWeight: .medium)
           CustomTextField(text: $username, placeholder: "Username")
-        }
-        
-        VStack(alignment: .leading) {
           CustomText(text: "Password", color: Color.black, font: .subheadline, fontWeight: .medium)
           CustomTextField(text: $password, placeholder: "Password")
         }
-        
-          
+
         CircularButton(text: "Sign In") {}.padding(.top,200) 
           .toolbar{
           ToolbarItem(placement: .topBarLeading) {
